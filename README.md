@@ -11,12 +11,6 @@
  - Bootstrap
  - Make
 
-### Dados estáticos para login na aplicação Frontend
- - username -> Patricia
- - password -> password_patricia
-
- - username -> yasmin
- - password -> password_yasmin
 
 ## Para rodar a aplicação Backend
  - Acessar o diretorio backend e criar ambiente virtual.
@@ -43,3 +37,23 @@ para autenticação, e receber um token como resposta.
  - Token: Bearer
 No frontend, além destes passos, será preciso decodificar o token, onde terá
 o username na resposta de autenticação.
+
+## Para rodar a aplicação Frontend
+
+#### Para consumir a API, é necessário primeiro iniciar o backend
+
+ - Acessar o diretorio frontend.
+ - digitar o comando
+
+```npm run dev```
+
+### Rota index
+
+```http://localhost:3000```
+
+### Dados estáticos para login na aplicação Frontend
+ - username -> Patricia
+ - password -> password_patricia
+
+ - username -> yasmin
+ - password -> password_yasmin
