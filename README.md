@@ -45,6 +45,10 @@ o username na resposta de autenticação.
  - Acessar o diretorio frontend.
  - digitar o comando
 
+```npm install```
+
+Em seguida
+
 ```npm run dev```
 
 ### Rota index
